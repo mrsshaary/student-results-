@@ -15,7 +15,7 @@
     <script>
         function searchResult() {
             const studentNumber = document.getElementById('studentNumber').value;
-            const pdfUrl = '1nyiy4gsoc3wt0VSlKyFlqLK22xIDExXA'; // استبدل هذا بالرابط المباشر لملف PDF الخاص بك
+            const pdfUrl = 'https://drive.google.com/drive/folders/13X7S3_R0ZrHAdNfns2gQCwJz4i4fsAbh?usp=drive_link'; // استبدل هذا بالرابط المباشر لملف PDF الخاص بك
             const loadingTask = pdfjsLib.getDocument(pdfUrl);
 
             loadingTask.promise.then(pdf => {
